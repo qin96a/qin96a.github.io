@@ -2,6 +2,35 @@
 <search> 
   
   
+    
+    <entry>
+      <title>hello</title>
+      <link href="/2019/04/20/hello/"/>
+      <url>/2019/04/20/hello/</url>
+      
+        <content type="html"><![CDATA[<h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h2><h3 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello hexo"></a>hello hexo</h3><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">code</span></span><br></pre></td></tr></table></figure><p>test</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类一 </category>
+          
+          <category> 分类二 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签一 </tag>
+            
+            <tag> 标签二 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
