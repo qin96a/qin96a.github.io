@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>css实现第二行缩进</title>
+      <link href="/2019/05/10/css%E5%AE%9E%E7%8E%B0%E7%AC%AC%E4%BA%8C%E8%A1%8C%E7%BC%A9%E8%BF%9B/"/>
+      <url>/2019/05/10/css%E5%AE%9E%E7%8E%B0%E7%AC%AC%E4%BA%8C%E8%A1%8C%E7%BC%A9%E8%BF%9B/</url>
+      
+        <content type="html"><![CDATA[<h3 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">   <span class="attribute">text-indent</span>:<span class="number">2em</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="实现第二行-后续所有行-缩进"><a href="#实现第二行-后续所有行-缩进" class="headerlink" title="实现第二行(后续所有行) 缩进"></a>实现第二行(后续所有行) 缩进</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">   <span class="attribute">text-indent</span>: -<span class="number">2em</span>;</span><br><span class="line">   <span class="attribute">padding-left</span>: <span class="number">2em</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css counter-increment 属性</title>
       <link href="/2019/04/26/CSS-counter-increment-%E5%B1%9E%E6%80%A7/"/>
       <url>/2019/04/26/CSS-counter-increment-%E5%B1%9E%E6%80%A7/</url>
