@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>css实现第二行缩进</title>
+      <link href="/2019/05/10/css%E5%AE%9E%E7%8E%B0%E7%AC%AC%E4%BA%8C%E8%A1%8C%E7%BC%A9%E8%BF%9B/"/>
+      <url>/2019/05/10/css%E5%AE%9E%E7%8E%B0%E7%AC%AC%E4%BA%8C%E8%A1%8C%E7%BC%A9%E8%BF%9B/</url>
+      
+        <content type="html"><![CDATA[<h3 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">   <span class="attribute">text-indent</span>:<span class="number">2em</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="实现第二行-后续所有行-缩进"><a href="#实现第二行-后续所有行-缩进" class="headerlink" title="实现第二行(后续所有行) 缩进"></a>实现第二行(后续所有行) 缩进</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line">   <span class="attribute">text-indent</span>: -<span class="number">2em</span>;</span><br><span class="line">   <span class="attribute">padding-left</span>: <span class="number">2em</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>css counter-increment 属性</title>
+      <link href="/2019/04/26/CSS-counter-increment-%E5%B1%9E%E6%80%A7/"/>
+      <url>/2019/04/26/CSS-counter-increment-%E5%B1%9E%E6%80%A7/</url>
+      
+        <content type="html"><![CDATA[<h3 id="counter-increment"><a href="#counter-increment" class="headerlink" title="counter-increment"></a>counter-increment</h3><ul><li>counter-increment属性递增一个或多个计数器值。</li><li>counter-increment属性通常用于counter-reset属性和content属性。<h3 id="用法："><a href="#用法：" class="headerlink" title="用法："></a>用法：</h3>通常用来对部分和子部分进行编号（比如 “Section 1”、”1.1”、”1.2”）的方法：<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="attribute">counter-reset</span>:section;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="selector-tag">h1</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="attribute">counter-reset</span>:subsection;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="selector-tag">h1</span><span class="selector-pseudo">:before</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="attribute">counter-increment</span>:section;</span><br><span class="line">    <span class="attribute">content</span>:<span class="string">"Section "</span> <span class="built_in">counter</span>(section) <span class="string">". "</span>;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="selector-tag">h2</span><span class="selector-pseudo">:before</span> </span><br><span class="line">&#123;</span><br><span class="line">    <span class="attribute">counter-increment</span>:subsection;</span><br><span class="line">    <span class="attribute">content</span>:<span class="built_in">counter</span>(section) <span class="string">"."</span> <span class="built_in">counter</span>(subsection) <span class="string">" "</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+            <tag> counter-increment </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript基础-初识闭包</title>
       <link href="/2019/04/22/JavaScript%E5%9F%BA%E7%A1%80-%E5%88%9D%E8%AF%86%E9%97%AD%E5%8C%85/"/>
       <url>/2019/04/22/JavaScript%E5%9F%BA%E7%A1%80-%E5%88%9D%E8%AF%86%E9%97%AD%E5%8C%85/</url>
